@@ -1,0 +1,270 @@
+*{
+    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   
+   }
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: white;
+    color:black;
+}
+
+
+header {
+    background-color: white;
+    color: black;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    
+}
+
+header h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    padding: 0px;
+    cursor: default;
+}
+.logo{
+    height:120px;
+    width: 120px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.link li a{
+    font-size: 50px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    padding-right:200px;
+    
+}
+
+header ul li {
+    display: flex;
+    margin: 50px;
+    font-size: 45px;
+
+}
+
+header a {
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: blue;
+}
+.one{
+    
+    margin: 0px auto;
+    padding: 0px;
+    align-content: center;
+    background-color: white;
+    border-radius: 8px;
+    background: url('contact\ background.jpg')no-repeat center center/cover;
+    height: 800px;
+}
+.one h1{
+    text-align: center;
+    font-size: 70px;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.one p{
+    text-align: center;
+    font-size: 55px;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:black;
+}
+h2, h3 {
+    color:black;
+}
+
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: black;
+}
+
+h2 {
+    font-size: 2.75em;
+    margin-bottom: 15px;
+    margin-top: 20px;
+
+}
+
+h3 {
+    font-size: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+p {
+    margin-bottom: 80px;
+    font-size: 45px;
+}
+footer {
+    padding: 20px;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 25px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+footer hr {
+    margin: 20px 0;
+    border: 1px solid black;
+}
+.copy{
+    text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.three{
+    width: 45%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    padding-left: 130px;
+}
+.four{
+    width: 45%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    padding-right: 130px;
+}
+
+h3 {
+    color:black;
+    margin-bottom: 10px;
+}
+
+p {
+    color:black;
+    margin-bottom: 20px;
+}
+
+div {
+    margin-bottom: 30px;
+}
+.lulu{
+    font-weight: 200;
+    font-size: 40px;
+}
+
+i {
+    margin-right: 8px;
+    color: rgb(41, 41, 180);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+label {
+    font-weight: bold;
+    color: black;
+    font-size: 45px;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="Number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    box-shadow: lightgray 0 0 10px ;
+    font-size: 25px;
+}
+
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+input[type="submit"] {
+    background-color: #06376b;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+input[type="submit"]:hover {
+    background-color: blue;
+}
+
+.box-container {
+    display: flex;
+    gap: 2rem;
+    padding-left: 100px;
+    padding-right: 100px;
+   
+}
+.box-container .box{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.box-container .box h3 {
+    font-size: 3rem;
+    padding: 1rem 0;
+}
+
+.box-container .box a {
+    display: block;
+    font-size: 2rem;
+    padding: 1rem 0;
+    color: black;
+    text-decoration: none;
+}
+
+.box-container .box a:hover{
+    color: blue;
+}
+
+h1, h2, h3, p, .copy {
+    cursor: default;
+}
+
